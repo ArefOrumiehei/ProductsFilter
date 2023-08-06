@@ -1,0 +1,70 @@
+* {
+    font-family: system-ui, -apple-system, 'Open Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    padding: 50px;
+}
+
+.filter-menu {
+    flex: 1;
+}
+
+.search {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid gray;
+}
+
+h1 {
+    font-size: 30px;
+    color: #555;
+    font-weight: 400;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.category {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.content {
+    flex: 4;
+}
+
+.products {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+img {
+    width: 150px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.name {
+    font-weight: 300;
+}
+
+.price-value {
+    font-weight: 700;
+}
