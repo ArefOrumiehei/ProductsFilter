@@ -5,6 +5,7 @@
 .container {
     display: flex;
     padding: 50px;
+    gap: 20px;
 }
 
 .filter-menu {
@@ -39,12 +40,14 @@ h1 {
 
 .content {
     flex: 4;
+    border-left: 2px solid #555 ;
 }
 
 .products {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    margin-left: 30px ;
 }
 
 .product {
@@ -52,7 +55,10 @@ h1 {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 20px;
     gap: 20px;
+    border: 2px solid #777;
+    border-radius: 5px;
 }
 
 img {
