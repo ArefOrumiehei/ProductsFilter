@@ -3,21 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/svg/javascript.svg" type="image/x-icon">
     <link rel="stylesheet" href="filter.css">
     <title>Products Filter</title>
 </head>
 <body>
     <div class="container">
-        <div class="fiter-menu">
+        <div class="filter-menu">
             <input type="search" placeholder="Search..." class="search">
-            <h1>Categories</h1>
-            <div class="categories">
-                <!--Come from js-->
+            <div class="darkmode">
+                <span class="darkmode-text">Dark mode</span>
+                <input type="checkbox" class="darkmode-toggle">
             </div>
-            <h1>Maximum Price</h1>
-            <div class="price">
-                <input type="range" class="price-range">
-                <span class="price-value">$400</span>
+            <div class="categories-section">
+                <h1>Categories</h1>
+                <div class="categories">
+                    <!--Come from js-->
+                </div>
+            </div>
+            <div class="range">
+                <h1>Maximum Price</h1>
+                <div class="price">
+                    <input type="range" class="price-range">
+                    <span class="price-value">$400</span>
+                </div>
             </div>
         </div>
         <div class="content">
